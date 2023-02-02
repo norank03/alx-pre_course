@@ -1,11 +1,7 @@
-ls
-more README.md
-git fetch origin 
-git pull origin
-ls
-more README.md
+cd root 
+cd alx-pre_course
+git pull
+cd 0x01-git
 touch up_to_date
-vim up_to_date
-more up_to_date
-git commit'How to be up to date in git'
-git push origin
+git add .git commit -m "How to be up to date in git"
+git push
